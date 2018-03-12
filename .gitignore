@@ -1,0 +1,16 @@
+# Application
+results.json
+junit_results.xml
+screenshots/*
+
+# Node.js
+node_modules
+*.log
+npm-debug.log*
+.npm
+
+
+# IDE's
+.idea
+.iml
+

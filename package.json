@@ -1,0 +1,23 @@
+{
+  "name": "webdriverio-oradian-test",
+  "version": "0.3.0",
+  "description": "Automated functional testing with webdriverio and cucumber",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node ./node_modules/selenium-standalone/bin/selenium-standalone install",
+    "test": "node ./run.js"
+  },
+  "author": "Sebastian Minatti",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.26.0",
+    "cucumber": "^0.10.2",
+    "cucumber-junit": "^1.5.0",
+    "glob": "^7.0.3",
+    "mkdirp": "^0.5.1",
+    "request": "^2.72.0",
+    "selenium-standalone": "latest",
+    "webdriverio": "^4.0.7"
+  }
+}
