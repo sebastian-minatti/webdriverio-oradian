@@ -15,4 +15,4 @@ Feature: Performing a login
 
         Examples:
         |user| |password|
-        |"iamtester"| |"Iam1Tester2"|
+        |"addUser"| |"Addpassword"|
